@@ -1,0 +1,333 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /*transition: all 0.3s;*/
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*global css above. all styles must be under this line*/
+
+/*header styling
+===========================*/
+
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 5px;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+  padding: 10px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  font-family: Arial;
+  margin: 10px 0 10px 0;
+
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.menu a:hover {
+  color: #cfb169;
+}
+
+.active {
+  color: #cfb169 !important;
+}
+
+@media (min-width: 768px) {
+  .header {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .logo {
+    padding-left: 25px;
+    float: left;
+  }
+
+  .menu {
+    float: right;
+  }
+}
+
+/*banner section*/
+
+.bannerSection {
+  background-image: url(../images/my-photo.jpg);
+  background-position: 35% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 420px;
+}
+
+.bannerSocMed {
+  display: none;
+}
+
+.textWrapper {
+  color: #fff;
+  padding: 210px 10px ;
+  text-align: right;
+}
+
+.i-am-container {
+  margin-right: 198px;
+}
+
+.name-container {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.skills-container {
+  font-size: 10px;
+}
+/*resume styling
+===========================*/
+
+.resumeSection {
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.resume-head-content {
+  color: #53472a;
+  margin-top: 20px;
+
+}
+
+.title-container {
+  padding: 40px 0;
+}
+
+.titleText {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.content {
+  line-height: 25px;
+  padding: 20px 5px;
+}
+
+.resume-body-content {
+  margin: 20px 0 0 0;
+  padding: 20px 0;
+  background-color: #eaeaea;
+}
+
+.body-title, .body-text {
+  color: #53472a;
+  padding: 5px 10px;
+  line-height: 25px;
+}
+
+.body-title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.divLine {
+  max-width: 50px;
+  border-style: dotted;
+  border-width: 1px;
+  border-color: #53472a;
+  margin: 25px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .bannerSection  {
+    height: 600px;
+  }
+
+  .textWrapper {
+    margin-right: 10px;
+  }
+
+  .i-am-container {
+    font-size: 20px;
+    margin: 0 380px 0 0;
+  }
+
+  .name-container {
+    font-size: 30px;
+  }
+
+  .skills-container {
+    font-size: 18px;
+  }
+
+  .resume-head-content {
+    padding: 0 100px;
+  }
+
+  .resume-body-content {
+    padding: 50px 100px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .resumeSection {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .resume-head-content, .resume-body-content {
+    float: left;
+  }
+
+  .resume-head-content {
+    padding: 20px 5px;
+    width: 30%;
+    margin-top: 0;
+  }
+
+  .resume-body-content {
+    padding: 50px 100px;
+    width: 70%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .resumeSection {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .bannerSection {
+    height: 700px;
+  }
+
+  .textWrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .i-am-container {
+    font-size: 25px;
+  }
+
+  .name-container {
+    font-size: 45px;
+  }
+
+  .skills-container {
+    font-size: 21px;
+  }
+}
+
+/*footer section
+===========================*/
+
+.footerSection {
+  margin-top: 0;
+  padding: 10px 0;
+  background-color: #2d2d2d;
+}
+
+.footText-container {
+  color: #fff;
+}
+
+.footText-container h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.footText-container p {
+  font-size: 13px;
+}
+
+.contactInfo {
+  color: #fff;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.socMedContainer {
+  display: none;
+}
+
+.icons {
+  width: 30px;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .footerSection {
+    padding: 10px 15px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .footText-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .contactInfo {
+    max-width: 1200px;
+    margin: 10px auto 0 auto;
+    text-align: left;
+  }
+
+  .socMedContainer {
+    max-width: 1200px;
+    margin: -30px auto 0 auto;
+    display: block;
+  }
+
+  .socMedIcons {
+    line-height: 1px;
+    float: right;
+  }
+
+  .socMedIcons a {
+    text-decoration: none;
+  }
+
+  .centerIcon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

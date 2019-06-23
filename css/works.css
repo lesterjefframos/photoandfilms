@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /*transition: all 0.3s;*/
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*global css above. all styles must be under this line*/
+
+/*header styling
+===========================*/
+
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 5px;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+  padding: 10px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  font-family: Arial;
+  margin: 10px 0 10px 0;
+
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.menu a:hover {
+  color: #cfb169;
+}
+
+.active {
+  color: #cfb169 !important;
+}
+
+@media (min-width: 768px) {
+  .header {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .logo {
+    padding-left: 25px;
+    float: left;
+  }
+
+  .menu {
+    float: right;
+  }
+}
+
+/*banner styling
+===========================*/
+
+.bannerContainer {
+  background-image: url(../images/nav-image-3.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.mainTitle {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.tagline {
+  font-size: 16px;
+  font-style: italic;
+  text-transform: none;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.skills {
+  font-size: 12px;
+  text-transform: none;
+  color: #fff;
+}
+
+.textWrapper {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.btn-behance {
+  padding: 13px 30px;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  transition: all 0.3s;
+}
+
+.btn-behance:hover {
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #fff;
+}
+
+.thumb-01 {
+  background-image: url(../images/creative.jpg);
+  width: 177px;
+  height: 193px;
+}
+
+.thumb-small {
+  background-size: cover;
+  background-position: center;
+}
+
+/*footer section
+===========================*/
+
+.footerSection {
+  margin-top: 5px;
+  padding: 10px 0;
+  background-color: #2d2d2d;
+}
+
+.footText-container {
+  color: #fff;
+}
+
+.footText-container h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.footText-container p {
+  font-size: 13px;
+}
+
+.contactInfo {
+  color: #fff;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.socMedContainer {
+  display: none;
+}
+
+.icons {
+  width: 30px;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .footerSection {
+    padding: 10px 15px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .footText-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .contactInfo {
+    max-width: 1200px;
+    margin: 10px auto 0 auto;
+    text-align: left;
+  }
+
+  .socMedContainer {
+    max-width: 1200px;
+    margin: -30px auto 0 auto;
+    display: block;
+  }
+
+  .socMedIcons {
+    line-height: 1px;
+    float: right;
+  }
+
+  .socMedIcons a {
+    text-decoration: none;
+  }
+
+  .centerIcon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
