@@ -4,13 +4,17 @@
     <meta charset="utf-8">
     <title>LJR Photo & Films</title>
     <link rel="stylesheet" href="css/works.css">
-      <link rel="icon" href="images/LJR-icon.png" type="brand-icon">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="icon" href="images/LJR-icon.png" type="brand-icon">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
 <!--copy to other pages-->
-    <div class="header clearfix">
+    <div class="headContainer">
+      <div class="header clearfix">
       <div class="navBG">
         <img src="images/logo.png" alt="Brand Logo"  class="logo">
         <div class="menu">
@@ -22,13 +26,65 @@
         </div>
         <!--<div class="lineHR"></div>-->
       </div>
+      </div>
     </div>
 <!--copy to other pages-->
 
     <div class="galleryContainer">
+      <div class="titlePhotography">
+        <h2 class="title-right">Photography</h2>
+      </div>
       <div class="galleryPhoto clearfix">
-        <div class="groupLeft">
-          <a href="#"><div  class="thumb-small thumb-01"></div></a>
+        <div class="group left">
+          <a href="images/gallery/gallery-photog-1.jpg" data-lightbox="photography" class="btn"><div  class="thumb-small photo-01 thumb"></div></a>
+          <a href="images/gallery/gallery-photog-2.jpg" data-lightbox="photography"><div  class="thumb-small photo-02 thumb"></div></a>
+          <a href="images/gallery/gallery-photog-3.jpg" data-lightbox="photography"><div  class="thumb-wide photo-03 thumb"></div></a>
+        </div>
+        <div class="group center">
+          <a href="images/gallery/gallery-photog-4.jpg" data-lightbox="photography"><div  class="thumb-large photo-04 thumb"></div></a>
+        </div>
+        <div class="group right">
+          <a href="images/gallery/gallery-photog-5.jpg" data-lightbox="photography"><div  class="thumb-wide photo-05 thumb"></div></a>
+          <a href="images/gallery/gallery-photog-6.jpg" data-lightbox="photography"><div  class="thumb-small photo-06 thumb"></div></a>
+          <a href="images/gallery/gallery-photog-7.jpg" data-lightbox="photography"><div  class="thumb-small photo-07 thumb"></div></a>
+        </div>
+      </div>
+<!--design-->
+      <div class="titleDesign">
+        <h2 class="title-left">Graphics Design</h2>
+      </div>
+      <div class="galleryDesign clearfix">
+        <div class="group left">
+          <a href="images/gallery/gallery-design-1.jpg" data-lightbox="design" class="btn"><div  class="thumb-wide des-01 thumb"></div></a>
+          <a href="images/gallery/gallery-design-2.jpg" data-lightbox="design"><div  class="thumb-small des-02 thumb"></div></a>
+          <a href="images/gallery/gallery-design-3.jpg" data-lightbox="design"><div  class="thumb-small des-03 thumb"></div></a>
+        </div>
+        <div class="group center">
+          <a href="images/gallery/gallery-design-4.jpg" data-lightbox="design"><div  class="thumb-large des-04 thumb"></div></a>
+        </div>
+        <div class="group right">
+          <a href="images/gallery/gallery-design-5.jpg" data-lightbox="design"><div  class="thumb-small des-05 thumb"></div></a>
+          <a href="images/gallery/gallery-design-6.jpg" data-lightbox="design"><div  class="thumb-small des-06 thumb"></div></a>
+          <a href="images/gallery/gallery-design-7.jpg" data-lightbox="design"><div  class="thumb-wide des-07 thumb"></div></a>
+        </div>
+      </div>
+<!--models-->
+      <div class="titleModel">
+        <h2 class="title-right">3D Modeling</h2>
+      </div>
+      <div class="galleryModel clearfix">
+        <div class="group left">
+          <a href="images/gallery/gallery-model-1.jpg" data-lightbox="model" class="btn"><div  class="thumb-small model-01 thumb"></div></a>
+          <a href="images/gallery/gallery-model-2.jpg" data-lightbox="model"><div  class="thumb-small model-02 thumb"></div></a>
+          <a href="images/gallery/gallery-model-3.jpg" data-lightbox="model"><div  class="thumb-wide model-03 thumb"></div></a>
+        </div>
+        <div class="group center">
+          <a href="images/gallery/gallery-model-4.jpg" data-lightbox="model"><div  class="thumb-large model-04 thumb"></div></a>
+        </div>
+        <div class="group right">
+          <a href="images/gallery/gallery-model-5.jpg" data-lightbox="model"><div  class="thumb-wide model-05 thumb"></div></a>
+          <a href="images/gallery/gallery-model-6.jpg" data-lightbox="model"><div  class="thumb-small model-06 thumb"></div></a>
+          <a href="images/gallery/gallery-model-7.jpg" data-lightbox="model"><div  class="thumb-small model-07 thumb"></div></a>
         </div>
       </div>
     </div>
