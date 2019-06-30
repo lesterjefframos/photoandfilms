@@ -372,35 +372,35 @@ img {
 
 .des-02 {
   background-image: url(../images/gallery/gallery-design-2.jpg);
-  background-position: 5% 50%;
+  background-position: 27% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .des-03 {
   background-image: url(../images/gallery/gallery-design-3.jpg);
-  background-position: 15% 50%;
+  background-position: 0 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .des-04 {
   background-image: url(../images/gallery/gallery-design-4.jpg);
-  background-position: 100% 30%;
+  background-position: 20% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .des-05 {
   background-image: url(../images/gallery/gallery-design-5.jpg);
-  background-position: 40% 50%;
+  background-position: 10% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .des-06 {
   background-image: url(../images/gallery/gallery-design-6.jpg);
-  background-position: 20% 50%;
+  background-position: 10% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -746,6 +746,226 @@ img {
   }
 
   .model-05 {
+    margin-bottom: 12px;
+  }
+}
+
+/*layout*/
+
+/*design*/
+
+.titleLayout {
+  background-image: url(../images/layout-cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /*height: 60px;*/
+}
+
+.title-left {
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 10px;
+  opacity: 0.2;
+}
+
+.galleryLayout {
+  width: 100%;
+  margin: 7px auto;
+  padding: 10px 0;
+}
+
+.thumb {
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.thumb-small {
+  width: 177px;
+  height: 193px;
+}
+
+.thumb-wide {
+  width: 358px;
+  height: 187px;
+}
+
+.thumb-large {
+  width: 358px;
+  height: 325px;
+}
+
+.lay-01 {
+  background-image: url(../images/gallery/gallery-layout-1.jpg);
+  background-position: 5% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lay-02 {
+  background-image: url(../images/gallery/gallery-layout-2.jpg);
+  background-position: 27% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lay-03 {
+  background-image: url(../images/gallery/gallery-layout-3.jpg);
+  background-position: 0 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lay-04 {
+  background-image: url(../images/gallery/gallery-layout-4.jpg);
+  background-position: 10% 0%;
+  background-size: 700px;
+  background-repeat: no-repeat;
+}
+
+.lay-05 {
+  background-image: url(../images/gallery/gallery-layout-5.jpg);
+  background-position: 60% 60%;
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+
+.lay-06 {
+  background-image: url(../images/gallery/gallery-layout-6.jpg);
+  background-position: 100% 0%;
+  background-size: 500px;
+  background-repeat: no-repeat;
+}
+
+.lay-07 {
+  background-image: url(../images/gallery/gallery-layout-7.jpg);
+  background-position: 5% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.thumb:hover {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 700px) {
+  .titleDesign {
+    height: 90px;
+  }
+
+  .title-left {
+    line-height: 90px;
+  }
+
+  .galleryLayout {
+    max-width: 629px;
+  }
+
+  .thumb-small {
+    width: 312px;
+    height: 342px;
+  }
+
+  .thumb-wide {
+    width: 630px;
+    height: 331px;
+  }
+
+  .thumb-large {
+    width: 630px;
+    height: 575px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .title-left {
+    text-align: center;
+  }
+
+  .galleryLayout {
+    max-width: 789px;
+  }
+
+  .thumb-small {
+    width: 390px;
+    height: 428px;
+  }
+
+  .thumb-wide {
+    width: 784px;
+    height: 415px;
+  }
+
+  .thumb-large {
+    width: 784px;
+    height: 575px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title-left {
+    text-align: center;
+  }
+
+  .galleryLayout {
+    max-width: 1200px;
+  }
+
+  .thumb-small {
+    width: 177px;
+    height: 193px;
+    float: left;
+  }
+
+  .thumb-wide {
+    width: 368px;
+    height: 187px;
+  }
+
+  .thumb-large {
+    width: 432px;
+    height: 396px;
+  }
+
+  .left {
+    max-width: 368px;
+    float: left;
+  }
+
+  .center {
+    max-width: 432px;
+    float: left;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .right {
+    max-width: 368px;
+    float:left;
+  }
+
+  .lay-05 {
+    margin-right: 14px;
+  }
+
+  .lay-07 {
+    margin-top: 14px;
+  }
+
+  .right {
+    max-width: 368px;
+  }
+
+  .lay-03 {
+    margin-left: 14px;
+  }
+
+  .lay-01 {
     margin-bottom: 12px;
   }
 }
