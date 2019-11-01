@@ -259,7 +259,7 @@ img {
 ===========================*/
 
 .footerSection {
-  margin-top: 0;
+  margin-top: 5px;
   padding: 10px 0;
   background-color: #2d2d2d;
 }
@@ -285,11 +285,6 @@ img {
 
 .socMedContainer {
   display: none;
-}
-
-.icons {
-  width: 30px;
-  height: auto;
 }
 
 @media (min-width: 768px) {
@@ -324,10 +319,58 @@ img {
 
   .socMedIcons a {
     text-decoration: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
   }
 
   .centerIcon {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
+  .icons {
+    width: 32px;
+    height: auto;
+  }
+
+  .fb-icon {
+    border: 1px solid #fff;
+    padding: 8px;
+    transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+  }
+
+  .in-icon {
+    border: 1px solid #fff;
+    padding: 8px;
+    transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+  }
+
+  .insta-icon {
+    border: 1px solid #fff;
+    padding: 8px;
+    transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+  }
+
+  .fb-icon:hover {
+    border-radius: 6px;
+    background-color: #0e8af7;
+  }
+
+  .in-icon:hover {
+    border-radius: 6px;
+    background-color: #01689c;
+  }
+
+  .insta-icon:hover {
+    border-radius: 6px;
+    background-color: #c82869;
   }
 }
